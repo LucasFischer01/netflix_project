@@ -1,3 +1,4 @@
+import { ImgHTMLAttributes } from "react";
 import styled from "styled-components";
 import { BaseButton } from "../BaseButton";
 export const Container = styled.div`
@@ -11,3 +12,4 @@ export const Button = styled(BaseButton)`
 width: 20%;
 border-radius: 5px;
 `
+export const NetflixLogo = styled.img.attrs({ href:} as ImgHTMLAttributes<HTMLImageElement>)
