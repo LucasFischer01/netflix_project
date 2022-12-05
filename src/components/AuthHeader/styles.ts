@@ -12,4 +12,6 @@ export const Button = styled(BaseButton)`
 width: 20%;
 border-radius: 5px;
 `
-export const NetflixLogo = styled.img.attrs({ href:} as ImgHTMLAttributes<HTMLImageElement>)
+export const NetflixLogo = styled.img.attrs((NetflixLogoProps): JSX.Element => {
+  src: '../../assets/netflix_logo.svg'
+})

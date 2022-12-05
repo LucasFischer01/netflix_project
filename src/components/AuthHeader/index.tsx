@@ -1,6 +1,6 @@
 import { useMemo } from "react";
 import { Button, Container } from "./styles";
-import NetflixLogo from '../../assets/netflix_logo.svg';
+import { NetflixLogo } from "./styles"
 
 
 export interface AuthHeaderProps {
@@ -11,6 +11,7 @@ export const AuthHeader = ({ showButtons = true }: AuthHeaderProps): JSX.Element
     if (showButtons) {
       return (
         <>
+          <NetflixLogo />
           <Button> DropDown </Button>
           <Button>Iniciar Sessão</Button>
         </>
