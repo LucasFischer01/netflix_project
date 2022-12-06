@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import { Button, Container } from "./styles";
+import { Button, ButtonContainer, Container } from "./styles";
 import { NetflixLogo } from "./styles"
 
 
@@ -10,19 +10,19 @@ export const AuthHeader = ({ showButtons = true }: AuthHeaderProps): JSX.Element
   const Buttons = useMemo(() => {
     if (showButtons) {
       return (
-        <>
-          <NetflixLogo />
+        <ButtonContainer>
           <Button> DropDown </Button>
           <Button>Iniciar Sessão</Button>
-        </>
+        </ButtonContainer>
       )
     }
     return null
   }, [showButtons])
   return (
     <Container>
-      {/* <NetflixLogo /> */}
+      <NetflixLogo />
       {Buttons}
+
     </Container>
   );
 }

@@ -4,6 +4,6 @@ width: 100%;
 height: 50px;
 background: red;
 color: white;
-font-size: 14px;
+font-size: 1rem;
 font-weight: 400;
 `

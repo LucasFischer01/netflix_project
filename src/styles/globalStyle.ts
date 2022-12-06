@@ -6,7 +6,9 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   outline: 0;
   border: none;
-  font-family: 'Segoe UI', Roboto, Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Roboto , 'Segoe UI', Ubuntu, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  background-color: #000;
 }
 button{
   cursor: pointer;
