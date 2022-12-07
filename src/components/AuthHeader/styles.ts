@@ -23,8 +23,6 @@ align-items: center;
 justify-content: space-between;
 flex-direction: row;
 display:flex;
-
-
 `
 export const Button = styled(BaseButton)`
 width: 8.2675rem;

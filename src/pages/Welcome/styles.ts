@@ -1,5 +1,7 @@
+import { ImgHTMLAttributes } from "react";
 import styled from "styled-components";
 //import netflixWalpaper from "../../assets/netflix_walpaper.jpg";
+import Tv from "../../assets/tv.png";
 export const Container = styled.div`
     flex: 1;
     flex-wrap:wrap;
@@ -73,4 +75,18 @@ color: white;
 font-size: 1.875rem;
 min-height: 70px;
 
+`
+export const Pattern2 = styled.div`
+  width: 51.8125rem;
+  justify-content: center;
+  text-align: center;
+  margin: 0 25%;
+padding: 75px;
+flex-direction: column;
+`
+export const TvImg = styled.img.attrs({
+  src: Tv
+} as ImgHTMLAttributes<HTMLImageElement>)`
+width: 25%;
+height:100%;
 `
