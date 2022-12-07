@@ -25,10 +25,13 @@ export const Welcome = ({
       </Divisor>
       <Divisor>
         <Pattern2>
-          <MainHead>Veja a Netflix no seu televisor.</MainHead>
-          <Head>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, leitores de Blu-ray e muito mais.</Head>
+          <Pattern>
+            <MainHead>Veja a Netflix no seu televisor.</MainHead>
+            <Head>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, leitores de Blu-ray e muito mais.</Head>
+          </Pattern>
           <TvImg />
         </Pattern2>
+
 
       </Divisor>
       <Divisor>

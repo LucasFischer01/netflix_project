@@ -77,12 +77,12 @@ min-height: 70px;
 
 `
 export const Pattern2 = styled.div`
-  width: 51.8125rem;
-  justify-content: center;
+  width: 100%;
+  justify-content: flex-start;
   text-align: center;
   margin: 0 25%;
 padding: 75px;
-flex-direction: column;
+flex-direction: row;
 `
 export const TvImg = styled.img.attrs({
   src: Tv
