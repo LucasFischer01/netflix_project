@@ -1,7 +1,7 @@
 import React from "react";
 import { AuthHeader } from "../../components/AuthHeader";
 import { Button } from "../../components/BaseButton/styles";
-import { Divisor, Container, MainHead, Head, Subtitle, Pattern, EmailInputTrue, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg } from "./styles";
+import { Divisor, Container, MainHead, Head, Subtitle, Pattern, EmailInputTrue, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, SplitScreen } from "./styles";
 export interface WelcomeProps {
 
 };
@@ -24,15 +24,16 @@ export const Welcome = ({
         </Pattern>
       </Divisor>
       <Divisor>
-        <Pattern2>
-          <Pattern>
-            <MainHead>Veja a Netflix no seu televisor.</MainHead>
-            <Head>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, leitores de Blu-ray e muito mais.</Head>
-          </Pattern>
+        <SplitScreen>
+          <Pattern2>
+            <TextPattern>
+              <MainHead>Veja a Netflix no seu televisor.</MainHead>
+              <Head>Smart TVs, Playstation, Xbox, Chromecast, Apple TV, leitores de Blu-ray e muito mais.</Head>
+            </TextPattern>
+          </Pattern2>
           <TvImg />
-        </Pattern2>
 
-
+        </SplitScreen>
       </Divisor>
       <Divisor>
         <Pattern>

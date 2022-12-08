@@ -77,16 +77,22 @@ min-height: 70px;
 
 `
 export const Pattern2 = styled.div`
-  width: 100%;
-  justify-content: flex-start;
-  text-align: center;
-  margin: 0 25%;
-padding: 75px;
+  width: 50%;
+  margin-left: 14.28%;
+padding: 75px 75px 75px;
 flex-direction: row;
+`
+export const TextPattern = styled.div`
+
+  justify-content: center;
+  text-align: center;
 `
 export const TvImg = styled.img.attrs({
   src: Tv
 } as ImgHTMLAttributes<HTMLImageElement>)`
 width: 25%;
 height:100%;
+`
+export const SplitScreen = styled.div`
+flex-direction: row;
 `
