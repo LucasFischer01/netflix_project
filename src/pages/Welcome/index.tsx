@@ -1,7 +1,7 @@
 import React from "react";
 import { AuthHeader } from "../../components/AuthHeader";
 import { Button } from "../../components/BaseButton/styles";
-import { Divisor, Container, MainHead, Head, Subtitle, Pattern, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, SplitScreen } from "./styles";
+import { Divisor, Container, MainHead, Head, Subtitle, Pattern, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, MobileImg } from "./styles";
 export interface WelcomeProps {
 
 };
@@ -33,13 +33,15 @@ export const Welcome = ({
           <TvImg />
         </Pattern2>
 
-
       </Divisor>
       <Divisor>
-        <Pattern>
-          <MainHead>Transfira os seus programas para ver offline.</MainHead>
-          <Head>Guarde os seus favoritos e tenha sempre algo para ver.</Head>
-        </Pattern>
+        <Pattern2>
+          <MobileImg />
+          <TextPattern>
+            <MainHead>Transfira os seus programas para ver offline.</MainHead>
+            <Head>Guarde os seus favoritos e tenha sempre algo para ver.</Head>
+          </TextPattern>
+        </Pattern2>
       </Divisor>
       <Divisor>
         <Pattern>

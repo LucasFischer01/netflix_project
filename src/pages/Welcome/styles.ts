@@ -2,6 +2,7 @@ import { ImgHTMLAttributes } from "react";
 import styled from "styled-components";
 //import netflixWalpaper from "../../assets/netflix_walpaper.jpg";
 import Tv from "../../assets/tv.png";
+import Mobile from "../../assets/mobile-0819.jpg"
 export const Container = styled.div`
     flex: 1;
     flex-wrap:wrap;
@@ -79,6 +80,10 @@ export const TvImg = styled.img.attrs({
 width: 100%;
 max-width:  530px;
 `
-export const SplitScreen = styled.div`
-flex-direction: row;
+
+export const MobileImg = styled.img.attrs({
+  src: Mobile
+} as ImgHTMLAttributes<HTMLImageElement>)`
+width: 100%;
+max-width:  530px;
 `
