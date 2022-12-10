@@ -40,12 +40,6 @@ height: 3rem;
 border-radius: 3px;
 `
 
-/*export const EmailInputControl = (EmailInputControlProps) => {
-  if EmailInputControl {
-
-  }
-}*/
-
 export const EmailInputFalse = styled.input`
 width: 75%;
 height: 100%;
@@ -57,16 +51,6 @@ height: 100%;
   color: #8c8c8c;
 }
 `
-export const EmailInputTrue = styled.input`
-width: 75%;
-height: 100%;
-  background: white;
-  padding: 10px;
-  font-size: 1rem;
-  min-height: 70px;
-::placeholder {
-  color: #8c8c8c;
-}`
 
 export const SignUp = styled.button`
 width: 25%;
@@ -77,21 +61,23 @@ min-height: 70px;
 
 `
 export const Pattern2 = styled.div`
-  width: 50%;
-  margin-left: 14.28%;
-padding: 75px 75px 75px;
-flex-direction: row;
+  width: 0 auto;
+  margin: 0 14.28%;
+  padding: 75px 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
 `
 export const TextPattern = styled.div`
-
-  justify-content: center;
-  text-align: center;
+align-self: center;
+margin-left: 1rem;
+  text-align: left;
 `
 export const TvImg = styled.img.attrs({
   src: Tv
 } as ImgHTMLAttributes<HTMLImageElement>)`
-width: 25%;
-height:100%;
+width: 100%;
+max-width:  530px;
 `
 export const SplitScreen = styled.div`
 flex-direction: row;
