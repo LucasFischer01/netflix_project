@@ -1,7 +1,7 @@
 import React from "react";
 import { AuthHeader } from "../../components/AuthHeader";
 import { Button } from "../../components/BaseButton/styles";
-import { Divisor, Container, MainHead, Head, Subtitle, Pattern, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, MobileImg } from "./styles";
+import { Divisor, Container, MainHead, Head, Subtitle, Pattern, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, MobileImg, MultiDevice, KidsLogo } from "./styles";
 export interface WelcomeProps {
 
 };
@@ -44,16 +44,22 @@ export const Welcome = ({
         </Pattern2>
       </Divisor>
       <Divisor>
-        <Pattern>
-          <MainHead>Veja onde quiser.</MainHead>
-          <Head>Veja em streaming com acesso ilimitado a séries e filmes no seu telemóvel, tablet, computador e televisor, sem ter de pagar mais.</Head>
-        </Pattern>
+        <Pattern2>
+          <TextPattern>
+            <MainHead>Veja onde quiser.</MainHead>
+            <Head>Veja em streaming com acesso ilimitado a séries e filmes no seu telemóvel, tablet, computador e televisor, sem ter de pagar mais.</Head>
+          </TextPattern>
+          <MultiDevice />
+        </Pattern2>
       </Divisor>
       <Divisor>
-        <Pattern>
-          <MainHead>Crie perfis para crianças.</MainHead>
-          <Head>As crianças também poderão descobrir novas aventuras e encontrar os seus personagens favoritos num espaço dedicado, que está incluído na sua adesão.</Head>
-        </Pattern>
+        <Pattern2>
+          <KidsLogo />
+          <TextPattern>
+            <MainHead>Crie perfis para crianças.</MainHead>
+            <Head>As crianças também poderão descobrir novas aventuras e encontrar os seus personagens favoritos num espaço dedicado, que está incluído na sua adesão.</Head>
+          </TextPattern>
+        </Pattern2>
       </Divisor>
       <Divisor>
         <Pattern>

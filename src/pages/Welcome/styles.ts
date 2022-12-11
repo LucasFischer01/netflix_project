@@ -3,6 +3,8 @@ import styled from "styled-components";
 //import netflixWalpaper from "../../assets/netflix_walpaper.jpg";
 import Tv from "../../assets/tv.png";
 import Mobile from "../../assets/mobile-0819.jpg"
+import Multi from "../../assets/device-pile.png"
+import Kids from "../../assets/kids-logo.png"
 export const Container = styled.div`
     flex: 1;
     flex-wrap:wrap;
@@ -37,17 +39,16 @@ export const Subtitle = styled.div`
 export const Subscribe = styled.div`
 display:flex;
 width: 100%;
-height: 3rem;
-border-radius: 3px;
+height: 70px;
 `
 
 export const EmailInputFalse = styled.input`
 width: 75%;
 height: 100%;
+border-radius: 3px 0 0 3px;
   background: white;
   padding: 10px;
   font-size: 1rem;
-  min-height: 70px;
 ::placeholder {
   color: #8c8c8c;
 }
@@ -55,10 +56,11 @@ height: 100%;
 
 export const SignUp = styled.button`
 width: 25%;
+height: 100%;
+border-radius: 0 3px 3px 0;
 background-color: red;
 color: white;
 font-size: 1.875rem;
-min-height: 70px;
 
 `
 export const Pattern2 = styled.div`
@@ -83,6 +85,18 @@ max-width:  530px;
 
 export const MobileImg = styled.img.attrs({
   src: Mobile
+} as ImgHTMLAttributes<HTMLImageElement>)`
+width: 100%;
+max-width:  530px;
+`
+export const MultiDevice = styled.img.attrs({
+  src: Multi
+} as ImgHTMLAttributes<HTMLImageElement>)`
+width: 100%;
+max-width:  530px;
+`
+export const KidsLogo = styled.img.attrs({
+  src: Kids
 } as ImgHTMLAttributes<HTMLImageElement>)`
 width: 100%;
 max-width:  530px;
