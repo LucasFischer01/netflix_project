@@ -3,7 +3,7 @@ import Logo from "../../assets/netflix_logo.svg";
 import styled from "styled-components";
 import { BaseButton } from "../BaseButton";
 export const Container = styled.div`
-width: 100%;
+width: auto;
 height: 70px;
 justify-content: space-between;
 align-items: center;

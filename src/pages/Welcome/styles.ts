@@ -1,6 +1,6 @@
 import { ImgHTMLAttributes } from "react";
 import styled from "styled-components";
-//import netflixWalpaper from "../../assets/netflix_walpaper.jpg";
+import netflixWalpaper from "../../assets/netflix_walpaper.jpg";
 import Tv from "../../assets/tv.png";
 import Mobile from "../../assets/mobile-0819.jpg"
 import Multi from "../../assets/device-pile.png"
@@ -15,17 +15,30 @@ export const Container = styled.div`
 export const Divisor = styled.div`
   width: 100%;
   border-bottom: 10px solid #222;
+  align-items: center;
 `
 export const Pattern = styled.div`
-  width: 51.8125rem;
-  justify-content: center;
+  display: flex;
+  margin: auto;
+  width: 65%;
   text-align: center;
-  margin: 0 25%;
-padding: 75px;
-
+  padding: 75px;
+  flex-direction: column;
 `
+export const TxtSpace = styled.div`
+padding: 0.5rem 0 ;
+`
+// export const BackGroundImg = styled.img.attrs({
+//   src: netflixWalpaper
+// } as ImgHTMLAttributes<HTMLImageElement>)`
+// background-position-x:center;
+// background-size:cover;
+// background-repeat: no-repeat;
+// display: flex;
+// `
+
 export const MainHead = styled.div`
-  font-size: 3.2rem;
+  font-size: 3rem;
   font-weight: 700;
 `
 export const Head = styled.div`
@@ -70,6 +83,7 @@ export const Pattern2 = styled.div`
   display: flex;
   justify-content: space-between;
   max-width: 1100px;
+  align-items: center;
 `
 export const TextPattern = styled.div`
 align-self: center;
