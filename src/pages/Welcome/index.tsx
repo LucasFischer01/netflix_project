@@ -1,4 +1,5 @@
 import React from "react";
+import { Disclosure } from "../../components";
 import { AuthHeader } from "../../components/AuthHeader";
 import { Button } from "../../components/BaseButton/styles";
 import { Divisor, Container, MainHead, Head, Subtitle, Pattern, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, MobileImg, MultiDevice, KidsLogo, TxtSpace, /*BackGroundImg*/ } from "./styles";
@@ -68,6 +69,11 @@ export const Welcome = ({
     <Divisor>
       <Pattern>
         <MainHead>Perguntas frequentes</MainHead>
+        <Disclosure
+          title="O que é a Netflix?"
+          content="Netflix é um serviço de streaming que oferece uma grande variedade de séries de televisão, filmes, títulos de animé, documentários e outros conteúdos premiados que podem ser vistos em milhares de dispositivos com uma ligação à internet.\n
+          Pode ver tudo o que quiser, quando quiser, sem anúncios. Tudo por um baixo custo mensal. Há sempre novos conteúdos para descobrir e todas as semanas são adicionados novos filmes e séries!"
+        ></Disclosure>
       </Pattern>
     </Divisor>
   </Container>
