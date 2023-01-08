@@ -2,6 +2,7 @@ import React from "react";
 import { Disclosure } from "../../components";
 import { AuthHeader } from "../../components/AuthHeader";
 import { Button } from "../../components/BaseButton/styles";
+import { DisclosureContainer } from "../../components/Disclosure/styles";
 import { Divisor, Container, MainHead, Head, Subtitle, Pattern, SignUp, Subscribe, EmailInputFalse, Pattern2, TvImg, TextPattern, MobileImg, MultiDevice, KidsLogo, TxtSpace, /*BackGroundImg*/ } from "./styles";
 export interface WelcomeProps {
 
