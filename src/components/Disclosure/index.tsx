@@ -9,9 +9,11 @@ export const Disclosure = ({ title, content }: DisclosureProps): JSX.Element => 
     {({ open }) => (
       <>
         <DisclosureButton>
+
           {title}
           <Icon open={open} />
         </DisclosureButton>
+
         <DisclosurePanel>
           {content}
         </DisclosurePanel>
